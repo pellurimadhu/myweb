@@ -31,7 +31,7 @@
 		
 		<repository>
 		    <id>nexusRepo</id>
-		    <url>http://http://34.73.14.253:8081/nexus/content/repositories/releases//</url>
+		    <url>http://http://35.237.144.92:8081/nexus/content/repositories/releases///</url>
 		</repository>
   	</distributionManagement>
 
