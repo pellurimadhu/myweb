@@ -34,6 +34,16 @@
 		    <url>http://34.73.14.253:8081/nexus/content/repositories/nexusrepo/////</url>
 		</repository>
   	</distributionManagement>
+	
+	<pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>in.javahome</groupId>
+          <artifactId>myweb</artifactId>
+          <version>2.8.2</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
 
 	
 </project>
