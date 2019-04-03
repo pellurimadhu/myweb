@@ -24,17 +24,20 @@
 	</dependencies>
 	
 	<distributionManagement>
-		
-		<snapshotRepository>
-		    <id>nexusRepo</id>
-		    <url>http://35.190.184.54:8081/nexus/content/repositories/snapshots/</url>
-		 </snapshotRepository>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <url>http://35.231.60.240:8081/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
+</distributionManagement>
 		 
-		<repository>
-		    <id>nexusRepo</id>
-		    <url>http://35.190.184.54:8081/nexus/content/repositories/releases/</url>
-		</repository>
-  	</distributionManagement>
+		
+       <distributionManagement>
+  <repository>
+    <id>releases</id>
+    <url>http://35.231.60.240:8081/nexus/content/repositories/releases</url>
+  </repository>
+</distributionManagement>
+      
 
 	
 </project>
